@@ -2,8 +2,8 @@
 
 **This is a Python project from my early days as a Computer Science student**
 
-_This programm was created for the sixth semester class Multimedia Systems
-and is one of the final projects for the class_
+_This programs were created for the sixth semester class Multimedia Systems
+and are projects for extra credit for the class_
 
 > #### Description of project
 >
