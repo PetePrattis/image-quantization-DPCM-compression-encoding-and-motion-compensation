@@ -22,6 +22,8 @@ and are projects for extra credit for the class_
 > 8. You should be able to set the dictionary size as an input Assume a maximum size of 256 (8-bytes)
 > 9. At the output should be a list of indexes corresponding to the input string taking into account the dictionary-index word pairs.
 > 10. Give the output a number that expresses the compression ratio
+> 11. Perform a procedure that accepts two frames as input and calculates their difference and returns an error frame, no motion vector is calculated
+> 12. Implement a function that accepts two frames, a reference frame that will be used when searching for motion vectors, and a target frame that will be provided. Divide the target frame into 16 X 16 macroblock blocks, and if the width and height of the frame are not multiples of 16, fill the frame with black pixels appropriately. For each block in the target box, refer to the corresponding position in the reference box and find the area that gives the best result. Use metric SAD in the resulting search area for k = 16 so that the motion vectors are sized to a maximum of 16 pixels in each direction. Based on the prediction block calculate the error block as the difference between the original block and the predicted one. This process will result in an error frame when all blocks are completed.
 
 > #### About this project
 >
